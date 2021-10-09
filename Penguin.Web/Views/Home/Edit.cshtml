@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+@model TransactionVM
+
+<link href="~/css/EditStyle.css" rel="stylesheet" />
+
+<h1>Edit</h1>
+
+<div class="container">
+    <form asp-controller="Home" asp-action="Edit">
+        @Html.LabelFor(m => m.TransactionAmount)
+        @Html.EditorFor(m => m.TransactionAmount)
+
+        @Html.LabelFor(m => m.Description)
+
+        @Html.EditorFor(m => m.Description)
+
+
+
+        <input type="submit" value="Submit">
+        <a asp-controller="Home" asp-action="Index">
+            <input class="back" type="button" value="Back" />
+        </a>
+    </form>
+</div>
+

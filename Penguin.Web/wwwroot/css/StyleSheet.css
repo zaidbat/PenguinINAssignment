@@ -1,0 +1,53 @@
+﻿table {
+    font-family: "Open Sans", Arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a {
+    color: #059862;
+    text-decoration: none;
+}
+
+h1 {
+    font: bold 350% "Open Sans", Arial, sans-serif;
+    color: #777;
+    text-align: center;
+
+}
+
+
+.back {
+    background-color: #059862;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+    margin-top:30px;
+    font-size:30px;
+}
+
+.header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
